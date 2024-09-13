@@ -25,7 +25,7 @@ def exibir_conteudos_json():
         exibir_conteudos_json()
     except json.JSONDecodeError:
         print("Os conteúdos dentro do arquivo não estavam no formato de um `json`.")
-        exibir_conteudos_json
+        exibir_conteudos_json() 
     
 
 exibir_conteudos_json()
